@@ -1,0 +1,11 @@
+{
+  "name": "com.alex427.oneshot-nativetools",
+  "version": "1.0.0",
+  "displayName": "OneShot 3D Native Tools",
+  "description": "native tools for oneshot 3d",
+  "unity": "6000.2",
+  "author": {
+    "name": "al_ex427",
+    "url": "https://tiktok.com/@al_ex427"
+  }
+}

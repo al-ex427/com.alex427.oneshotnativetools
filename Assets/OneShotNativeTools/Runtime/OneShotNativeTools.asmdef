@@ -1,0 +1,16 @@
+{
+    "name": "OneShotNativeTools",
+    "rootNamespace": "OneShot.NativeTools",
+    "references": [
+        "GUID:a5a78738e7403924b9a2642beec7d9e0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

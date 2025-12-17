@@ -1,0 +1,14 @@
+{
+    "name": "OneShotNativeTools.Extensions.Windows",
+    "rootNamespace": "OneShot.Windows",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
