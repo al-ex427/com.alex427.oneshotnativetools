@@ -45,6 +45,11 @@ namespace OneShot.NativeTools
         }
         #endregion
 
+        #region Message Boxes
+
+        
+
+        
         public void TriggerMessageBox(string message, string caption)
         {
             
@@ -86,6 +91,24 @@ namespace OneShot.NativeTools
             return Task.FromResult(msgBox ?? default(MessageBoxResult));
         }
         #endif
+        
+        
+        #endregion
+
+        #region User names
+
+        public string GetSystemUser()
+        {
+            #if !UNITY_ANDROID && !UNITY_IOS
+                return Environment.UserName;
+            #else 
+                return "User";
+            #endif
+            
+            
+        }
+
+        #endregion
 
     }
 }
