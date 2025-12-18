@@ -2,7 +2,7 @@ namespace OneShot.NativeTools.Windows
 {
     #if UNITY_STANDALONE_WIN
     /// <summary>
-    /// what the messagebox returns in an enum<br/>
+    /// what the messagebox returns in an enum, only used in native environments<br/>
     /// <a href="https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox#return-value">See Microsoft Docs</a>
     /// </summary>
     public enum MessageBoxResult

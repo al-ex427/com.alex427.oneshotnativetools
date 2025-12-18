@@ -1,4 +1,6 @@
 using System;
+using System.Threading.Tasks;
+using OneShot.NativeTools.Windows;
 using UnityEngine;
 
 namespace OneShot.NativeTools
@@ -46,6 +48,18 @@ namespace OneShot.NativeTools
         {
             
         }
+        
+        #if UNITY_STANDALONE_WIN
+        public Task<MessageBoxResult> Windows_NativeMessageBox(string message, string caption)
+        {
+
+            while (!msgBox.gotResult)
+            {
+                Task.Yield();
+            }
+            return Task.FromResult(msgBox);
+        }
+        #endif
 
     }
 }

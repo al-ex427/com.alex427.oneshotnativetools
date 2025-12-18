@@ -1,3 +1,13 @@
 # OneShot 3D: native tools
 
-the native tools used in oneshot 3d
+crossplatform tools for native stuff:
+
+## Features
+| Device      | MsgBox | Wallpaper |
+|-------------|--------|----------|
+| Windows     | ➖      | ❌        |
+| macOS       | ❌      | ❌        |
+| Linux/Unix  | ❌      | ❌        |
+| Android     | ❌      | ❌        |
+| iOS         | ❌      | ❌        |
+

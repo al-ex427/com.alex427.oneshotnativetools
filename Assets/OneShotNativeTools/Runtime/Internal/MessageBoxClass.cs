@@ -1,14 +1,25 @@
+using System;
+using System.Runtime.InteropServices;
 using OneShot.NativeTools.Windows;
 using UnityEngine;
 
 namespace OneShot.NativeTools
 {
-    public class MessageBoxClass : MonoBehaviour
+    [Serializable]
+    public class MessageBoxClass : IDisposable
     {
+
         public bool gotResult => result != null;
         
-        #if UNITY_STANDALONE_WIN
-        [field: SerializeField] public MessageBoxResult result{ get; private set; }
-#endif
+        public string result { get; private set; }
+
+        MessageBoxClass(string caption, string text)
+        {
+            
+        }
+        public void Dispose()
+        {
+            
+        }
     }
 }
