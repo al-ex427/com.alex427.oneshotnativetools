@@ -1,6 +1,6 @@
 {
   "name": "com.alex427.oneshot-nativetools",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "displayName": "OneShot 3D Native Tools",
   "description": "native tools for oneshot 3d",
   "unity": "6000.2",
