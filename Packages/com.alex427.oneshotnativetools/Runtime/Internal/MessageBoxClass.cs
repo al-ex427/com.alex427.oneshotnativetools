@@ -1,8 +1,5 @@
 using System;
 using System.Runtime.InteropServices;
-#if UNITY_STANDALONE_WIN
-using OneShot.NativeTools.Windows;
-#endif
 using UnityEngine;
 
 namespace OneShot.NativeTools

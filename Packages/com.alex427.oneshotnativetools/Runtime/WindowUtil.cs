@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.InteropServices;
 
 namespace OneShot.NativeTools
@@ -8,7 +9,7 @@ namespace OneShot.NativeTools
         [DllImport("liboneshot-3d-nativetools", CharSet = CharSet.Ansi)]
         private static extern void SetTitle(string title);
         #elif UNITY_STANDALONE_WIN
-        [DllImport("user32.dll", Charset = Charset.Unicode)]
+        [DllImport("user32.dll", CharSet = CharSet.Unicode)]
         private static extern bool SetWindowTextW(IntPtr hWnd, string lpString);
         [DllImport("user32.dll")]
         private static extern IntPtr GetActiveWindow();
