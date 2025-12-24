@@ -1,4 +1,0 @@
-set(ENV_TARGET_DEVICE $ENV{ONESHOT_NATIVES_TARGETDEVICE})
-
-add_library(${PROJECT_NAME} SHARED)
-target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
