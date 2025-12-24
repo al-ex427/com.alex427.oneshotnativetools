@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.alex427.oneshot-nativetools": {
+      "version": "file:com.alex427.oneshotnativetools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.10.2",
       "depth": 0,

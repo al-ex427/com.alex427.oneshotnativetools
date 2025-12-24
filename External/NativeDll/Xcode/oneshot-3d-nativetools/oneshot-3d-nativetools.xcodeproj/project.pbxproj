@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FADA8A632EFC217D0046E03D /* DialogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA8A622EFC21790046E03D /* DialogUtil.swift */; };
 		FAF9DD9E2EFB29F500952094 /* NotificationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9DD9B2EFB29F500952094 /* NotificationUtils.swift */; };
 		FAF9DD9F2EFB29F500952094 /* WindowUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9DD9C2EFB29F500952094 /* WindowUtils.swift */; };
 		FAF9DDA02EFB29F500952094 /* UnityInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9DD9A2EFB29F500952094 /* UnityInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FADA8A622EFC21790046E03D /* DialogUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogUtil.swift; sourceTree = "<group>"; };
 		FAF9DD8E2EFB29BF00952094 /* liboneshot-3d-nativetools.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "liboneshot-3d-nativetools.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF9DD9A2EFB29F500952094 /* UnityInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityInterface.swift; sourceTree = "<group>"; };
 		FAF9DD9B2EFB29F500952094 /* NotificationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtils.swift; sourceTree = "<group>"; };
 		FAF9DD9C2EFB29F500952094 /* WindowUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FADA8A662EFC22820046E03D /* Enums */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FAF9DD8C2EFB29BF00952094 /* Frameworks */ = {
@@ -33,6 +43,7 @@
 		FAF9DD852EFB29BE00952094 = {
 			isa = PBXGroup;
 			children = (
+				FADA8A662EFC22820046E03D /* Enums */,
 				FAF9DD9A2EFB29F500952094 /* UnityInterface.swift */,
 				FAF9DD9D2EFB29F500952094 /* Utils */,
 				FAF9DD8F2EFB29BF00952094 /* Products */,
@@ -50,6 +61,7 @@
 		FAF9DD9D2EFB29F500952094 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FADA8A622EFC21790046E03D /* DialogUtil.swift */,
 				FAF9DD9B2EFB29F500952094 /* NotificationUtils.swift */,
 				FAF9DD9C2EFB29F500952094 /* WindowUtils.swift */,
 			);
@@ -80,6 +92,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FADA8A662EFC22820046E03D /* Enums */,
 			);
 			name = "oneshot-3d-nativetools";
 			packageProductDependencies = (
@@ -127,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF9DD9E2EFB29F500952094 /* NotificationUtils.swift in Sources */,
+				FADA8A632EFC217D0046E03D /* DialogUtil.swift in Sources */,
 				FAF9DD9F2EFB29F500952094 /* WindowUtils.swift in Sources */,
 				FAF9DDA02EFB29F500952094 /* UnityInterface.swift in Sources */,
 			);
