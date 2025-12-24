@@ -7,8 +7,16 @@
 
 import Foundation
 
-enum ButtonType {
-    case OK
-    case OKYESNO
-    case YESNO
+ enum ButtonType : Int32, CustomStringConvertible  {
+    case OK = 0
+    case OKYESNO = 2
+    case YESNO = 1
+    
+    var description : String {
+        switch self {
+        case .OK: return "Ok"
+        case .OKYESNO: return "Ok Yes No"
+        case .YESNO: return "Yes No"
+        }
+    }
 }
