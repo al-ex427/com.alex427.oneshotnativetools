@@ -27,6 +27,7 @@ public class WindowUtils : NSObject {
     
     @objc
     public static func SetTitle(title:UnsafePointer<CChar>) -> Bool {
+        
         do {
             let sTitle:String = String(cString: title);
             gameWindow?.title = sTitle
